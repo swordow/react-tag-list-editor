@@ -1,8 +1,8 @@
 import React from 'react';
 import {findDOMNode} from 'react-dom';
-import {Input} from 'react-text-input/src/main/Input';
+import {Input} from '../react-text-input/src/main/Input';
 import PropTypes from "prop-types";
-const {any, array, string, bool, oneOfType, instanceOf, func} = PropTypes;
+const {any, array, string, bool, oneOfType, instanceOf, func,arrayOf} = PropTypes;
 
 
 const
@@ -315,7 +315,7 @@ export class TagListEditor extends React.Component {
                  onFocus={this.onInputFocus}
                  onBlur={this.onInputBlur}
                  onKeyDown={e => this.onInputKeyDown(e, tags)}
-                 onChange={this.onInputChange}/>
+                 onChange={(e)=>this.onInputChange(e)}/>
         </div>
       </div>
     );
