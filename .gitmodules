@@ -1,0 +1,6 @@
+[submodule "src/react-text-input"]
+	path = src/react-text-input
+	url = https://github.com/swordow/react-text-input.git
+[submodule "src/react-scroll-box"]
+	path = src/react-scroll-box
+	url = https://github.com/swordow/react-scroll-box.git
