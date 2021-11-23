@@ -4,6 +4,13 @@
 
 [**Live Demo**](http://smikhalevski.github.io/react-tag-list-editor/)
 
+## Build
+
+    git clone https://github.com/swordow/react-tag-list-editor.git
+    cd react-tag-list-editor
+    git submodule init --recursive
+    git submodule update
+    
 ## Usage
 
 ```jsx
