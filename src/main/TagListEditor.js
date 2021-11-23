@@ -1,8 +1,9 @@
 import React from 'react';
 import {findDOMNode} from 'react-dom';
 import {Input} from 'react-text-input/src/main/Input';
+import PropTypes from "prop-types";
+const {any, array, string, bool, oneOfType, instanceOf, func} = PropTypes;
 
-const {any, arrayOf, string, bool, oneOfType, instanceOf, func} = React.PropTypes;
 
 const
   HIGHLIGHT_CLASS = 'tag-list__item--highlighted',
